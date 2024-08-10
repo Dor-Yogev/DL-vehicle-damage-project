@@ -126,7 +126,7 @@ Using the optimal hyperparameters found by Optuna and addition of a schedualer -
 
 dataset:
 
-[https://www.kaggle.com/datasets/mrgeislinger/asl-rgb-depth-fingerspelling-spelling-it-out?resource=download](https://www.kaggle.com/datasets/sudhanshu2198/ripik-hackfest/data)
+https://www.kaggle.com/datasets/sudhanshu2198/ripik-hackfest/data
 
 ConvNeXt:
 
