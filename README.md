@@ -27,7 +27,7 @@ We chose ConvNext for this project due to its strong performance in image classi
 
 ![image](assets/convnext_comp.jpg)
 
-The ConvNeXt architecture is built hierarchically, with a basic block that includes a 7x7 CNN layer with 96 channels, followed by a Layer Norm, then an FC layer with 384 channels and GELU activation, and finally another FC layer with 96 channels. The block also includes skip connection from beginning to end. The main innovation of ConvNeXt is the use of FC layers in the block (not just CNN layers), as well as using Layer Norm instead of Batch Norm and GELU instead of ReLU. The diagram shows the differences between the ConvNeXt block and the ResNet block graphically.
+The ConvNeXt architecture is built hierarchically, with a basic block that includes a 7x7 CNN layer , followed by a Layer Norm, then an FC layer (which increase the channels number) and GELU activation, and finally another FC layer (which reduces the channels number). The block also includes skip connection from beginning to end. The main innovation of ConvNeXt is the use of FC layers in the block (not just CNN layers), as well as using Layer Norm instead of Batch Norm and GELU instead of ReLU. The diagram shows the differences between the ConvNeXt block and the ResNet block graphically (in the image there are 96 input channels).
 
 ![image](assets/convnext_block.jpg)
 
