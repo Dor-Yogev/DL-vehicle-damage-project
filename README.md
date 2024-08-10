@@ -116,7 +116,9 @@ Using the optimal hyperparameters found by Optuna and addition of a schedualer -
 
 - Experiment with additional architectures
 - Implement more advanced data augmentation techniques
-- Optimize model for deployment in real-world scenarios
+- Fine-tuning more stages of ConvNeXt
+- Combining multiple models for improved performance
+
   
 # References:
 
