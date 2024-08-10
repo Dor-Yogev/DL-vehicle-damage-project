@@ -88,7 +88,9 @@ Using the optimal hyperparameters found by Optuna and addition of a schedualer -
 ![image](assets/confusion_matrix.jpeg)
 
 
-
+# Requirments
+- In the requirments.txt file there are all the relevant dependencies
+- Use: pip install -r requirments.txt
 
 # Usage
 1. Dataset Preparation:
