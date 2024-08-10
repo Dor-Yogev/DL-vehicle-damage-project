@@ -11,7 +11,7 @@ Ravid Goldenberg
 # Introduction
 
 This project aims to develop a deep learning model capable of identifying the type of damage from images of damaged vehicles. We utilize the ConvNeXt architecture and implement various techniques to achieve high accuracy in predictions.
-![image](https://github.com/user-attachments/assets/6d890130-87cc-46fd-9bde-b599a464ec6d)
+![image](assets/dataset_samples.jpeg)
 
 # ConvNeXt
 
@@ -24,7 +24,7 @@ Scalability: Offers different model sizes (Tiny, Small, Base, Large) to suit var
 Transfer learning capabilities: Pre-trained on large datasets, allowing for effective fine-tuning on specific tasks like our vehicle damage classification.
 
 We chose ConvNext for this project due to its strong performance in image classification tasks and its ability to capture both local and global features effectively.
-![image](https://github.com/user-attachments/assets/b06a2859-2f1f-4db4-b6ab-5c35de4b78c7)
+![image](assets/convnext_structure.jpeg)
 
 
 # Dataset:
@@ -47,13 +47,13 @@ We used Optuna, an automatic hyperparameter optimization framework, to find the 
 
 Our Optuna trials yielded the following optimal hyperparameters:
 
-![image](https://github.com/user-attachments/assets/d5cc63d2-b605-49d3-8f5b-93ee8a6cc56d)
+![image](assets/optuna_result.jpeg)
 
 ### Final Model Performance
 
 Using the optimal hyperparameters found by Optuna, our final model achieved the following results:
 
-![image](https://github.com/user-attachments/assets/5cc4365b-9c5c-49a5-84a2-3b9c30f1007c)
+![image](assets/accuracy_graphs.jpeg)
 
 **train accuracy: 99.771%**
 
@@ -63,7 +63,7 @@ Using the optimal hyperparameters found by Optuna, our final model achieved the 
 
 **confusion matrix:**
 
-![image](https://github.com/user-attachments/assets/fc62f1cc-3f3c-4403-94f5-8b64b70e522d)
+![image](assets/confusion_matrix.jpeg)
 
 
 
