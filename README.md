@@ -31,7 +31,7 @@ The ConvNeXt architecture is built hierarchically, with a basic block that inclu
 
 ![image](assets/convnext_block.jpg)
 
-The ConvNeXt network consists of 4 stages, each containing a different number of blocks depending on the size of the chosen model. Between each stage and at the network's input, there are downsampling layers.We used ConvNeXt_Tiny model, which has 28 million parameters and performs 4.5 GigaFLOPs. This model contains 3 blocks in its first two stages, 9 blocks in the third stage, and 3 blocks in the last stage. due to memory constraints we only fine tuned the last stage and switched the last fc for a new fc layer with 6 outputs , the number of out labels.
+The ConvNeXt network consists of 4 stages, each containing a different number of blocks depending on the size of the chosen model. Between each stage and at the network's input, there are downsampling layers.We used ConvNeXt_Tiny model, which has 28 million parameters and performs 4.5 GigaFLOPs. This model contains 3 blocks in its first two stages, 9 blocks in the third stage, and 3 blocks in the last stage. due to memory constraints we only fine tuned the last stage and switched the last fc for a new fc layer with 6 outputs , the number of our labels , the other stages were freezed.
 
 ![image](assets/convnext_structure.jpeg)
 
